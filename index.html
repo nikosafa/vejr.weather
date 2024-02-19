@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vejr App</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="src/style.css"/> 
+    <title>Meteo App</title>
+  </head>
+  <body>
+    <div class="app">
     <header>
-       <form>
-       <input type="search" placeholder="Enter a city.."/>
-       <input type="submit" value="search"/> 
-       </form> 
+      <form>
+        <input type="search" placeholder="Enter a city.." required />
+        <input type="submit" value="Search" />
+      </form>
     </header>
-
     <main>
-        <div>
-    <h1>Copenhagen</h1>
-   <P>
-    Monday 10:53, cloudy
-    <br/>
-    Humidity: 66%, Wind: 3.13km/h
-   </P> 
-        </div>
-        <div>
-   ☁ 12°C
-        </div>
+      <div>
+        <h1>Paris</h1>
+        <p>
+          Tuesday 14:49, scattered clouds
+          <br />
+          Humidity: 66%, Wind: 3.13km/h
+        </p>
+      </div>
+      <div>🌤️ 12°C</div>
     </main>
 
     <footer>
-        Coded by
-        <a href="https://github.com/nikosafa" target="_blank"> Nikoleta </a>, code hosted on
-        <a href="https://github.com/nikosafa/vejr.weather" target="_blank">GitHub</a> and website hosted on
-        <a href="https://main--vejr-shecodes-app.netlify.app/" target="_blank"> Netlify </a> 
+      This project was coded by
+      <a href="https://github.com/matthieua/" target="_blank"> Matt Delac</a>,
+      is
+      <a href="https://github.com/matthieua/meteo" target="_blank"
+        >open-sourced on GitHub</a
+      >
+      and
+      <a href="https://meteo-shecodes-app.netlify.app/" target="_blank"
+        >hosted on Netlify</a
+      >
     </footer>
-</body>
+    </div> 
+  </body>
 </html>
