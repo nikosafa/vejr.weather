@@ -22,27 +22,27 @@ header {
 }
 
 .search-form {
-    display: flex; /* Display the search input and button in a row */
-    align-items: center; /* Align items vertically in the center */
+    display: flex;
+    align-items: center;
 }
 
 .search-form-input {
     background-color: #fff5f9;
     border: none;
     border-radius: 6px;
-    width: 70%; /* Adjusted width for the input */
+    width: 70%;
     font-size: 16px;
     padding: 15px 20px;
 }
 
 .search-form-button {
     background: #e60073;
-    padding: 15px 20px; /* Adjusted padding for the button */
+    padding: 15px 20px;
     border: none;
     font-size: 16px;
     border-radius: 6px;
     color: white;
-    margin-left: 10px; /* Added margin to separate the input and button */
+    margin-left: 10px;
 }
 
 main {
@@ -93,6 +93,37 @@ main {
     margin-top: 16px;
     font-size: 28px;
 }
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .weather-forecast-date {
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .weather-forecast-icon {
+    font-size: 38px;
+    text-align: center;
+  }
+  .weather-forecast-temperatures {
+    text-align: center;
+    color: #f65282;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .weather-forecast-temperature {
+    padding: 0 10px;
+  }
+  
 
 footer {
     border-top: 1px solid #fff5f9;
